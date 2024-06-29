@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(images/Cottage.jpg);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    height: 120vh;
+}
+
+a:visited {
+    color: white;
+}
+
+#ref {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.title-cont {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: relative;
+    bottom: 200px;
+}
+
+#title {
+    width: 60%;
+    height: 150px;
+    color: black;
+    font-size: 48px;
+    text-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    position: relative;
+    left: 10px;
+    font-family: fantasy, sans-serif;
+    font-weight: 950;
+}
+
+#bp {
+   position: relative;
+   left: 40px;
+}
+
+.main {
+    display: flex;
+}
+
+.left-side, .right-side {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.left-side {
+    width: 38%;
+    height: 120vh;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.right-side {
+    width: 62%;
+    height: 120vh;
+}
+
+.right-background {
+    display: flex;
+    box-sizing: border-box;
+    height: 34%;
+    background-color: #d9cab6;
+    padding: 5%;
+}
+
+.form {
+    box-sizing: border-box;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    position: relative;
+    height: 32%;
+    background-color: #d9d6d2;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#form-main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#form-head {
+    display: flex;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: start;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: start;
+    justify-content: flex-end;
+}
+
+input, label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 30px;
+};
+
+label {
+    margin-top: 15px;
+}
+
+input {
+    margin-top: 5px;
+    background-color: #eee;
+    border: none;
+    padding: .6rem;
+    font-size: 1rem;
+    width: 12em;
+    border-radius: 1rem;
+    box-shadow: 0 0.4rem #dfd9d9;
+    margin-bottom: 1em;
+}
+
+.inputs {
+    display: flex;
+}
+
+.input-cont {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-top: 15px;
+    width: 16em;
+}
+
+.inputs {
+    margin-right: 10em;
+}
+
+input:invalid {
+    border: none;
+    outline: 2px solid red;
+  }
+
+.input-titles {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+}
+
+#passwordRule {
+    display: flex;
+    text-align: start;
+    align-items: flex-end;
+    font-size: 10px;
+    position: relative;
+    bottom: 15px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+}
+
+#acc {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#submitButton {
+  background-color: #613f2d;
+  border-radius: 1rem;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 12em;
+  height: 4em;
+}
+
+#submitButton:hover,
+#submitButton:focus {
+  opacity: .75;
+}
